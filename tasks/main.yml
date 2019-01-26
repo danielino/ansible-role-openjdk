@@ -1,0 +1,11 @@
+---
+# tasks file for openjdk
+
+- name: check if version is supported
+  fail: msg="unsupported version"
+  when: openjdk_version not in openjdk_version_supported
+
+- name: intall openjdk
+  yum:
+    name: "java-{{ openjdk_version }}-openjdk"
+    state: installed
