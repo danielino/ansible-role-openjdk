@@ -2,6 +2,7 @@
 galaxy_info:
   author: Daniele Marcocci
   company: Par-Tec S.p.A.
+  description: Simple role that install openjdk on EL environment
 
   license: license (GPLv2, CC-BY, etc)
 
