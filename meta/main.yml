@@ -8,5 +8,6 @@ galaxy_info:
   min_ansible_version: 2.6
 
   galaxy_tags: []
+  role_name: openjdk
 
 dependencies: []
